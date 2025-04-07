@@ -5810,716 +5810,717 @@ const assessmentData: AssessmentData = {
       "security_monitoring": {
         name: "Security Monitoring",
         questions: [
+          
           {
-            id: "serv-1",
-            text: "Security Monitoring",
-            type: "header",
-            isHeader: true
-          },
-          {
-            id: "serv-1-1",
+            id: "sec_moni-1-1",
             text: "Have you formally described the security monitoring service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A service description should be in place.",
-            remarks: "Ensures clear understanding of the service scope and objectives."
+            remarks: "A service description should be in place.",
+            guidance: "Ensures clear understanding of the service scope and objectives."
           },
           {
-            id: "serv-1-2",
+            id: "sec_moni-1-2",
             text: "Please specify elements of the security monitoring service document:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-1-2-1",
+            id: "sec_moni-1-2-1",
             text: "Key performance indicators",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Indicators to establish the performance of the service.",
-            remarks: "Helps in measuring the effectiveness of the service.",
+            options: ["No", "Yes"],
+            remarks: "Indicators to establish the performance of the service.",
+            guidance: "Helps in measuring the effectiveness of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-2",
+            id: "sec_moni-1-2-2",
             text: "Quality indicators",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Indicators to establish the quality of service delivery.",
-            remarks: "Helps in assessing the service quality.",
+            options: ["No", "Yes"],
+            remarks: "Indicators to establish the quality of service delivery.",
+            guidance: "Helps in assessing the service quality.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-3",
+            id: "sec_moni-1-2-3",
             text: "Service dependencies",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
-            remarks: "Ensures all necessary components are considered.",
+              options: ["No", "Yes"],
+            remarks: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
+            guidance: "Ensures all necessary components are considered.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-4",
+            id: "sec_moni-1-2-4",
             text: "Service levels",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Agreements on minimum performance, capacity, availability, etc.",
-            remarks: "Sets expectations for service delivery.",
+              options: ["No", "Yes"],
+            remarks: "Agreements on minimum performance, capacity, availability, etc.",
+            guidance: "Sets expectations for service delivery.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-5",
+            id: "sec_moni-1-2-5",
             text: "Hours of operation",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The operational hours for this service (e.g., 24/7).",
-            remarks: "Defines the service availability.",
+              options: ["No", "Yes"],
+            remarks: "The operational hours for this service (e.g., 24/7).",
+            guidance: "Defines the service availability.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-6",
+            id: "sec_moni-1-2-6",
             text: "Service customers and stakeholders",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The customers and stakeholders for this service (e.g., IT management).",
-            remarks: "Identifies who benefits from the service.",
+              options: ["No", "Yes"],
+            remarks: "The customers and stakeholders for this service (e.g., IT management).",
+            guidance: "Identifies who benefits from the service.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-7",
+            id: "sec_moni-1-2-7",
             text: "Purpose",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The purpose and objectives for this service.",
-            remarks: "Clarifies the intent of the service.",
+              options: ["No", "Yes"],
+            remarks: "The purpose and objectives for this service.",
+            guidance: "Clarifies the intent of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-8",
+            id: "sec_moni-1-2-8",
             text: "Service input / triggers",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The service input: what triggers this service to run?",
-            remarks: "Defines the conditions under which the service operates.",
+              options: ["No", "Yes"],
+            remarks: "The service input: what triggers this service to run?",
+            guidance: "Defines the conditions under which the service operates.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-9",
+            id: "sec_moni-1-2-9",
             text: "Service output / deliverables",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The service output: what does the service deliver? Can be tangible (e.g., reports) or intangible (e.g., situational awareness).",
-            remarks: "Specifies the outcomes of the service.",
+              options: ["No", "Yes"],
+            remarks: "The service output: what does the service deliver? Can be tangible (e.g., reports) or intangible (e.g., situational awareness).",
+            guidance: "Specifies the outcomes of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-10",
+            id: "sec_moni-1-2-10",
             text: "Service activities",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Which activities are carried out within the scope of the service?",
-            remarks: "Details the actions performed as part of the service.",
+              options: ["No", "Yes"],
+            remarks: "Which activities are carried out within the scope of the service?",
+            guidance: "Details the actions performed as part of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-1-2-11",
+            id: "sec_moni-1-2-11",
             text: "Service roles & responsibilities",
             type: "dropdown",
-            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Which roles and responsibilities apply to this service?",
-            remarks: "Defines the roles involved in service delivery.",
+              options: ["No", "Yes"],
+            remarks: "Which roles and responsibilities apply to this service?",
+            guidance: "Defines the roles involved in service delivery.",
             isSubquestion: true
           },
           {
-            id: "serv-1-3",
+            id: "sec_moni-completeness",
+            text: "Completeness",
+            type: "completeness",
+            remarks: "Use this outcome to determine the score for 1.2"
+          },
+          {
+            id: "sec_moni-1-3",
             text: "Is the service measured for quality?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Are the quality indicators from the previous questions used for reporting on the service?",
-            remarks: "Ensures the service quality is tracked and reported."
+            remarks: "Are the quality indicators from the previous questions used for reporting on the service?",
+            guidance: "Ensures the service quality is tracked and reported."
           },
           {
-            id: "serv-1-4",
+            id: "sec_moni-1-4",
             text: "Is the service measured for service delivery in accordance with service levels?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service levels should be used to formally commit the SOC to service delivery.",
-            remarks: "Ensures service delivery meets agreed standards."
+            remarks: "Service levels should be used to formally commit the SOC to service delivery.",
+            guidance: "Ensures service delivery meets agreed standards."
           },
           {
-            id: "serv-1-5",
+            id: "sec_moni-1-5",
             text: "Are customers and/or stakeholders regularly updated about the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Changes to the service scope, delivery, etc.",
-            remarks: "Keeps stakeholders informed about service changes."
+            remarks: "Changes to the service scope, delivery, etc.",
+            guidance: "Keeps stakeholders informed about service changes."
           },
           {
-            id: "serv-1-6",
+            id: "sec_moni-1-6",
             text: "Is there a contractual agreement between the SOC and the customers?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Contractual agreements should also cover penalties.",
-            remarks: "Formalizes the service agreement and expectations."
+            remarks: "Contractual agreements should also cover penalties.",
+            guidance: "Formalizes the service agreement and expectations."
           },
           {
-            id: "serv-1-7",
+            id: "sec_moni-1-7",
             text: "Is sufficient personnel allocated to the process to ensure required service delivery?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Allocation of dedicated personnel will ensure highest service quality.",
-            remarks: "Ensures adequate staffing for service delivery."
+            remarks: "Allocation of dedicated personnel will ensure highest service quality.",
+            guidance: "Ensures adequate staffing for service delivery."
           },
           {
-            id: "serv-1-8",
+            id: "sec_moni-1-8",
             text: "Is the service aligned with other relevant processes?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "e.g., alignment with configuration management, incident management, etc.",
-            remarks: "Ensures the service integrates well with other processes."
+            remarks: "e.g., alignment with configuration management, incident management, etc.",
+            guidance: "Ensures the service integrates well with other processes."
           },
           {
-            id: "serv-1-9",
+            id: "sec_moni-1-9",
             text: "Is there an incident resolution / service continuity process in place for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
-            remarks: "Ensures service continuity during incidents."
+            remarks: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
+            guidance: "Ensures service continuity during incidents."
           },
           {
-            id: "serv-1-10",
+            id: "sec_moni-1-10",
             text: "Has a set of procedures been created for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
-            remarks: "Ensures standardized service delivery."
+            remarks: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
+            guidance: "Ensures standardized service delivery."
           },
           {
-            id: "serv-1-11",
+            id: "sec_moni-1-11",
             text: "Is there an onboarding and offboarding procedure for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Customer onboarding and offboarding procedures support efficient service delivery and ensure customers are (dis)connected properly.",
-            remarks: "Ensures smooth customer transitions."
+            remarks: "Customer onboarding and offboarding procedures support efficient service delivery and ensure customers are (dis)connected properly.",
+            guidance: "Ensures smooth customer transitions."
           },
           {
-            id: "serv-1-12",
+            id: "sec_moni-1-12",
             text: "Are best practices applied to the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Best practices should be used to optimize this service.",
-            remarks: "Ensures the service follows industry best practices."
+            remarks: "Best practices should be used to optimize this service.",
+            guidance: "Ensures the service follows industry best practices."
           },
           {
-            id: "serv-1-13",
+            id: "sec_moni-1-13",
             text: "Are use cases used in the security monitoring service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "e.g., user login brute-force, denial of service, non-compliance, etc.",
-            remarks: "Helps in understanding and addressing specific scenarios."
+            remarks: "e.g., user login brute-force, denial of service, non-compliance, etc.",
+            guidance: "Helps in understanding and addressing specific scenarios."
           },
           {
-            id: "serv-1-14",
+            id: "sec_moni-1-14",
             text: "Is process data gathered for prediction of service performance?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service performance measurement requires establishment of performance goals.",
-            remarks: "Ensures data-driven performance predictions."
+            remarks: "Service performance measurement requires establishment of performance goals.",
+            guidance: "Ensures data-driven performance predictions."
           },
           {
-            id: "serv-1-15",
+            id: "sec_moni-1-15",
             text: "Is the service continuously being improved based on improvement goals?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Improvement based on evaluation, assessment, tests, etc.",
-            remarks: "Ensures continuous service improvement."
+            remarks: "Improvement based on evaluation, assessment, tests, etc.",
+            guidance: "Ensures continuous service improvement."
           },
           {
-            id: "serv-1-16",
+            id: "sec_moni-1-16",
             text: "Please specify capabilities of the security monitoring service:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-1-16-1",
+            id: "sec_moni-1-16-1",
             text: "Early detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to detect incidents in an early stage.",
-            remarks: "Enhances incident response capabilities.",
+            remarks: "Capability to detect incidents in an early stage.",
+            guidance: "Enhances incident response capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-2",
+            id: "sec_moni-1-16-2",
             text: "Intrusion detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to detect intrusion attempts.",
-            remarks: "Enhances security monitoring capabilities.",
+            remarks: "Capability to detect intrusion attempts.",
+            guidance: "Enhances security monitoring capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-3",
+            id: "sec_moni-1-16-3",
             text: "Exfiltration detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to detect information leaving the organization.",
-            remarks: "Enhances data protection capabilities.",
+            remarks: "Capability to detect information leaving the organization.",
+            guidance: "Enhances data protection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-4",
+            id: "sec_moni-1-16-4",
             text: "Subtle event detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to detect slight changes in systems, applications, or network that may indicate malicious behavior.",
-            remarks: "Enhances early threat detection capabilities.",
+            remarks: "Capability to detect slight changes in systems, applications, or network that may indicate malicious behavior.",
+            guidance: "Enhances early threat detection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-5",
+            id: "sec_moni-1-16-5",
             text: "Malware detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to detect malware in the infrastructure.",
-            remarks: "Enhances malware protection capabilities.",
+            remarks: "Capability to detect malware in the infrastructure.",
+            guidance: "Enhances malware protection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-6",
+            id: "sec_moni-1-16-6",
             text: "Anomaly detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to detect anomalies.",
-            remarks: "Enhances threat detection capabilities.",
+            remarks: "Capability to detect anomalies.",
+            guidance: "Enhances threat detection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-7",
+            id: "sec_moni-1-16-7",
             text: "Real-time detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Can also be near real-time (e.g., 15 minutes delay).",
-            remarks: "Enhances real-time threat detection capabilities.",
+            remarks: "Can also be near real-time (e.g., 15 minutes delay).",
+            guidance: "Enhances real-time threat detection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-8",
+            id: "sec_moni-1-16-8",
             text: "Alerting & notification",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to automatically send alerts for all security monitoring components.",
-            remarks: "Enhances incident response capabilities.",
+            remarks: "Capability to automatically send alerts for all security monitoring components.",
+            guidance: "Enhances incident response capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-9",
+            id: "sec_moni-1-16-9",
             text: "False-positive reduction",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A process for reducing the amount of false-positives.",
-            remarks: "Enhances alert accuracy.",
+            remarks: "A process for reducing the amount of false-positives.",
+            guidance: "Enhances alert accuracy.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-10",
+            id: "sec_moni-1-16-10",
             text: "Continuous tuning",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A continuous tuning process for the correlation rules.",
-            remarks: "Ensures ongoing improvement of detection capabilities.",
+            remarks: "A continuous tuning process for the correlation rules.",
+            guidance: "Ensures ongoing improvement of detection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-11",
+            id: "sec_moni-1-16-11",
             text: "Coverage management",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Coverage indicates how well the service covers the assets in your environment.",
-            remarks: "Ensures comprehensive monitoring.",
+            remarks: "Coverage indicates how well the service covers the assets in your environment.",
+            guidance: "Ensures comprehensive monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-12",
+            id: "sec_moni-1-16-12",
             text: "Status monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of the status of the system.",
-            remarks: "Ensures system health and availability.",
+            remarks: "Monitoring of the status of the system.",
+            guidance: "Ensures system health and availability.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-13",
+            id: "sec_moni-1-16-13",
             text: "Perimeter monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of the network perimeter for attempted intrusions and exfiltration.",
-            remarks: "Enhances network security monitoring.",
+            remarks: "Monitoring of the network perimeter for attempted intrusions and exfiltration.",
+            guidance: "Enhances network security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-14",
+            id: "sec_moni-1-16-14",
             text: "Host monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of endpoints in the networks (servers, clients, etc.).",
-            remarks: "Enhances endpoint security monitoring.",
+            remarks: "Monitoring of endpoints in the networks (servers, clients, etc.).",
+            guidance: "Enhances endpoint security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-15",
+            id: "sec_moni-1-16-15",
             text: "Network & traffic monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of network and traffic flows and anomalies.",
-            remarks: "Enhances network traffic monitoring.",
+            remarks: "Monitoring of network and traffic flows and anomalies.",
+            guidance: "Enhances network traffic monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-16",
+            id: "sec_moni-1-16-16",
             text: "Access & usage monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of access attempts.",
-            remarks: "Enhances access control monitoring.",
+            remarks: "Monitoring of access attempts.",
+            guidance: "Enhances access control monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-17",
+            id: "sec_moni-1-16-17",
             text: "User / identity monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of user actions.",
-            remarks: "Enhances user behavior monitoring.",
+            remarks: "Monitoring of user actions.",
+            guidance: "Enhances user behavior monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-18",
+            id: "sec_moni-1-16-18",
             text: "Application & service monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of applications & services.",
-            remarks: "Enhances application and service monitoring.",
+            remarks: "Monitoring of applications & services.",
+            guidance: "Enhances application and service monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-19",
+            id: "sec_moni-1-16-19",
             text: "Behavior monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of behavior against baselines (can be host, network, and user behavior).",
-            remarks: "Enhances behavior monitoring capabilities.",
+            remarks: "Monitoring of behavior against baselines (can be host, network, and user behavior).",
+            guidance: "Enhances behavior monitoring capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-20",
+            id: "sec_moni-1-16-20",
             text: "Database monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of databases.",
-            remarks: "Enhances database security monitoring.",
+            remarks: "Monitoring of databases.",
+            guidance: "Enhances database security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-21",
+            id: "sec_moni-1-16-21",
             text: "Data loss monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring for loss of information.",
-            remarks: "Enhances data protection capabilities.",
+            remarks: "Monitoring for loss of information.",
+            guidance: "Enhances data protection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-22",
+            id: "sec_moni-1-16-22",
             text: "Device loss / theft monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring for loss or theft of company assets.",
-            remarks: "Enhances asset protection capabilities.",
+            remarks: "Monitoring for loss or theft of company assets.",
+            guidance: "Enhances asset protection capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-23",
+            id: "sec_moni-1-16-23",
             text: "Third-party monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of trusted third-parties to detect possible breach attempts through the supply chain.",
-            remarks: "Enhances supply chain security monitoring.",
+            remarks: "Monitoring of trusted third-parties to detect possible breach attempts through the supply chain.",
+            guidance: "Enhances supply chain security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-24",
+            id: "sec_moni-1-16-24",
             text: "Physical environment monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of the physical environment to detect cyber security incidents.",
-            remarks: "Enhances physical security monitoring.",
+            remarks: "Monitoring of the physical environment to detect cyber security incidents.",
+            guidance: "Enhances physical security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-25",
+            id: "sec_moni-1-16-25",
             text: "Cloud monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of private and public cloud environments: SAAS, IAAS, and PAAS.",
-            remarks: "Enhances cloud security monitoring.",
+            remarks: "Monitoring of private and public cloud environments: SAAS, IAAS, and PAAS.",
+            guidance: "Enhances cloud security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-26",
+            id: "sec_moni-1-16-26",
             text: "Mobile device monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of corporate-owned mobile devices or mobile devices containing corporate information.",
-            remarks: "Enhances mobile device security monitoring.",
+            remarks: "Monitoring of corporate-owned mobile devices or mobile devices containing corporate information.",
+            guidance: "Enhances mobile device security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-16-27",
+            id: "sec_moni-1-16-27",
             text: "OT monitoring",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Monitoring of Operational Technology environments, including ICS, SCADA, DCS, and PLC systems.",
-            remarks: "Enhances OT security monitoring.",
+            remarks: "Monitoring of Operational Technology environments, including ICS, SCADA, DCS, and PLC systems.",
+            guidance: "Enhances OT security monitoring.",
             isSubquestion: true
           },
           {
-            id: "serv-1-17",
+            id: "sec_moni-1-17",
             text: "Specify rationale for chosen values or any additional comments",
             type: "text",
-            guidance: "Space to provide any relevant context or any additional comments.",
-            remarks: "Use this outcome to determine the score for 1.2."
+            remarks: "Space to provide any relevant context or any additional comments.",
+            guidance: "Use this outcome to determine the score for 1.2."
           },
           {
-            id: "serv-2",
+            id: "sec_moni-2",
             text: "Security Incident Management",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-2-1",
+            id: "sec_moni-2-1",
             text: "Have you formally described the security incident management service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A service description should be in place.",
-            remarks: "Ensures clear understanding of the service scope and objectives."
+            remarks: "A service description should be in place.",
+            guidance: "Ensures clear understanding of the service scope and objectives."
           },
           {
-            id: "serv-2-2",
+            id: "sec_moni-2-2",
             text: "Please specify elements of the security incident management service document:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-2-2-1",
+            id: "sec_moni-2-2-1",
             text: "Key performance indicators",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Indicators to establish the performance of the service.",
-            remarks: "Helps in measuring the effectiveness of the service.",
+            remarks: "Indicators to establish the performance of the service.",
+            guidance: "Helps in measuring the effectiveness of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-2",
+            id: "sec_moni-2-2-2",
             text: "Quality indicators",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Indicators to establish the quality of service delivery.",
-            remarks: "Helps in assessing the service quality.",
+            remarks: "Indicators to establish the quality of service delivery.",
+            guidance: "Helps in assessing the service quality.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-3",
+            id: "sec_moni-2-2-3",
             text: "Service dependencies",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
-            remarks: "Ensures all necessary components are considered.",
+            remarks: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
+            guidance: "Ensures all necessary components are considered.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-4",
+            id: "sec_moni-2-2-4",
             text: "Service levels",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Agreements on minimum performance, capacity, availability, etc.",
-            remarks: "Sets expectations for service delivery.",
+            remarks: "Agreements on minimum performance, capacity, availability, etc.",
+            guidance: "Sets expectations for service delivery.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-5",
+            id: "sec_moni-2-2-5",
             text: "Hours of operation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The operational hours for this service (e.g., 24/7).",
-            remarks: "Defines the service availability.",
+            remarks: "The operational hours for this service (e.g., 24/7).",
+            guidance: "Defines the service availability.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-6",
+            id: "sec_moni-2-2-6",
             text: "Service customers and stakeholders",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The customers and stakeholders for this service (e.g., IT management).",
-            remarks: "Identifies who benefits from the service.",
+            remarks: "The customers and stakeholders for this service (e.g., IT management).",
+            guidance: "Identifies who benefits from the service.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-7",
+            id: "sec_moni-2-2-7",
             text: "Purpose",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The purpose and objectives for this service.",
-            remarks: "Clarifies the intent of the service.",
+            remarks: "The purpose and objectives for this service.",
+            guidance: "Clarifies the intent of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-8",
+            id: "sec_moni-2-2-8",
             text: "Service input / triggers",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The service input: what triggers this service to run?",
-            remarks: "Defines the conditions under which the service operates.",
+            remarks: "The service input: what triggers this service to run?",
+            guidance: "Defines the conditions under which the service operates.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-9",
+            id: "sec_moni-2-2-9",
             text: "Service output / deliverables",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The service output: what does the service deliver? Can be tangible (e.g., reports) or intangible (e.g., situational awareness).",
-            remarks: "Specifies the outcomes of the service.",
+            remarks: "The service output: what does the service deliver? Can be tangible (e.g., reports) or intangible (e.g., situational awareness).",
+            guidance: "Specifies the outcomes of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-10",
+            id: "sec_moni-2-2-10",
             text: "Service activities",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Which activities are carried out within the scope of the service?",
-            remarks: "Details the actions performed as part of the service.",
+            remarks: "Which activities are carried out within the scope of the service?",
+            guidance: "Details the actions performed as part of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-2-2-11",
+            id: "sec_moni-2-2-11",
             text: "Service roles & responsibilities",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Which roles and responsibilities apply to this service?",
-            remarks: "Defines the roles involved in service delivery.",
+            remarks: "Which roles and responsibilities apply to this service?",
+            guidance: "Defines the roles involved in service delivery.",
             isSubquestion: true
           },
           {
-            id: "serv-2-3",
+            id: "sec_moni-2-3",
             text: "Is the service measured for quality?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Are the quality indicators from the previous questions used for reporting on the service?",
-            remarks: "Ensures the service quality is tracked and reported."
+            remarks: "Are the quality indicators from the previous questions used for reporting on the service?",
+            guidance: "Ensures the service quality is tracked and reported."
           },
           {
-            id: "serv-2-4",
+            id: "sec_moni-2-4",
             text: "Is the service measured for service delivery in accordance with service levels?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service levels should be used to formally commit the SOC to service delivery.",
-            remarks: "Ensures service delivery meets agreed standards."
+            remarks: "Service levels should be used to formally commit the SOC to service delivery.",
+            guidance: "Ensures service delivery meets agreed standards."
           },
           {
-            id: "serv-2-5",
+            id: "sec_moni-2-5",
             text: "Are customers and/or stakeholders regularly updated about the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Changes to the service scope, delivery, etc.",
-            remarks: "Keeps stakeholders informed about service changes."
+            remarks: "Changes to the service scope, delivery, etc.",
+            guidance: "Keeps stakeholders informed about service changes."
           },
           {
-            id: "serv-2-6",
+            id: "sec_moni-2-6",
             text: "Is there a contractual agreement between the SOC and the customers?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Contractual agreements should also cover penalties.",
-            remarks: "Formalizes the service agreement and expectations."
+            remarks: "Contractual agreements should also cover penalties.",
+            guidance: "Formalizes the service agreement and expectations."
           },
           {
-            id: "serv-2-7",
+            id: "sec_moni-2-7",
             text: "Is sufficient personnel allocated to the process to ensure required service delivery?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Allocation of dedicated personnel will ensure highest service quality.",
-            remarks: "Ensures adequate staffing for service delivery."
+            remarks: "Allocation of dedicated personnel will ensure highest service quality.",
+            guidance: "Ensures adequate staffing for service delivery."
           },
           {
-            id: "serv-2-8",
+            id: "sec_moni-2-8",
             text: "Is the service aligned with other relevant processes?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "e.g., alignment with configuration management, incident management, etc.",
-            remarks: "Ensures the service integrates well with other processes."
+            remarks: "e.g., alignment with configuration management, incident management, etc.",
+            guidance: "Ensures the service integrates well with other processes."
           },
           {
-            id: "serv-2-9",
+            id: "sec_moni-2-9",
             text: "Is there an incident resolution / service continuity process in place for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
-            remarks: "Ensures service continuity during incidents."
+            remarks: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
+            guidance: "Ensures service continuity during incidents."
           },
           {
-            id: "serv-2-10",
+            id: "sec_moni-2-10",
             text: "Has a set of procedures been created for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
-            remarks: "Ensures standardized service delivery."
+            remarks: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
+            guidance: "Ensures standardized service delivery."
           },
           {
-            id: "serv-2-11",
+            id: "sec_moni-2-11",
             text: "Is there an onboarding and offboarding procedure for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Customer onboarding and offboarding procedures support efficient service delivery and ensure customers are (dis)connected properly.",
-            remarks: "Ensures smooth customer transitions."
+            remarks: "Customer onboarding and offboarding procedures support efficient service delivery and ensure customers are (dis)connected properly.",
+            guidance: "Ensures smooth customer transitions."
           },
           {
-            id: "serv-2-12",
+            id: "sec_moni-2-12",
             text: "Are best practices applied to the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Best practices should be used to optimize this service.",
-            remarks: "Ensures the service follows industry best practices."
+            remarks: "Best practices should be used to optimize this service.",
+            guidance: "Ensures the service follows industry best practices."
           },
           {
-            id: "serv-2-13",
+            id: "sec_moni-2-13",
             text: "Are use cases used in the security incident management service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "e.g., user login brute-force, denial of service, non-compliance, etc.",
-            remarks: "Helps in understanding and addressing specific scenarios."
+            remarks: "e.g., user login brute-force, denial of service, non-compliance, etc.",
+            guidance: "Helps in understanding and addressing specific scenarios."
           },
           {
-            id: "serv-2-14",
+            id: "sec_moni-2-14",
             text: "Is process data gathered for prediction of service performance?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service performance measurement requires establishment of performance goals.",
-            remarks: "Ensures data-driven performance predictions."
+            remarks: "Service performance measurement requires establishment of performance goals.",
+            guidance: "Ensures data-driven performance predictions."
           },
           {
-            id: "serv-2-15",
+            id: "sec_moni-2-15",
             text: "Is the service continuously being improved based on improvement goals?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Improvement based on evaluation, assessment, tests, etc.",
-            remarks: "Ensures continuous service improvement."
+            remarks: "Improvement based on evaluation, assessment, tests, etc.",
+            guidance: "Ensures continuous service improvement."
           },
           {
-            id: "serv-2-16",
+            id: "sec_moni-2-16",
             text: "Please specify capabilities of the security incident management service:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-2-16-1",
+            id: "sec_moni-2-16-1",
             text: "Incident detection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6528,330 +6529,330 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-2-16-2",
+            id: "sec_moni-2-16-2",
             text: "Incident response",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to respond to security incidents.",
-            remarks: "Enhances incident response capabilities.",
+            remarks: "Capability to respond to security incidents.",
+            guidance: "Enhances incident response capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-3",
+            id: "sec_moni-2-16-3",
             text: "Incident containment",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to contain security incidents.",
-            remarks: "Enhances incident containment capabilities.",
+            remarks: "Capability to contain security incidents.",
+            guidance: "Enhances incident containment capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-4",
+            id: "sec_moni-2-16-4",
             text: "Incident eradication",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to eradicate security incidents.",
-            remarks: "Enhances incident eradication capabilities.",
+            remarks: "Capability to eradicate security incidents.",
+            guidance: "Enhances incident eradication capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-5",
+            id: "sec_moni-2-16-5",
             text: "Incident recovery",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to recover from security incidents.",
-            remarks: "Enhances incident recovery capabilities.",
+            remarks: "Capability to recover from security incidents.",
+            guidance: "Enhances incident recovery capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-6",
+            id: "sec_moni-2-16-6",
             text: "Incident forensics",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to perform forensic analysis on security incidents.",
-            remarks: "Enhances incident forensics capabilities.",
+            remarks: "Capability to perform forensic analysis on security incidents.",
+            guidance: "Enhances incident forensics capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-7",
+            id: "sec_moni-2-16-7",
             text: "Incident reporting",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to report on security incidents.",
-            remarks: "Enhances incident reporting capabilities.",
+            remarks: "Capability to report on security incidents.",
+            guidance: "Enhances incident reporting capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-8",
+            id: "sec_moni-2-16-8",
             text: "Incident documentation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to document security incidents.",
-            remarks: "Enhances incident documentation capabilities.",
+            remarks: "Capability to document security incidents.",
+            guidance: "Enhances incident documentation capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-9",
+            id: "sec_moni-2-16-9",
             text: "Incident tracking",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to track security incidents.",
-            remarks: "Enhances incident tracking capabilities.",
+            remarks: "Capability to track security incidents.",
+            guidance: "Enhances incident tracking capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-10",
+            id: "sec_moni-2-16-10",
             text: "Incident correlation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to correlate security incidents with other events.",
-            remarks: "Enhances incident correlation capabilities.",
+            remarks: "Capability to correlate security incidents with other events.",
+            guidance: "Enhances incident correlation capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-11",
+            id: "sec_moni-2-16-11",
             text: "Incident escalation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to escalate security incidents to higher authorities.",
-            remarks: "Enhances incident escalation capabilities.",
+            remarks: "Capability to escalate security incidents to higher authorities.",
+            guidance: "Enhances incident escalation capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-12",
+            id: "sec_moni-2-16-12",
             text: "Incident communication",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to communicate about security incidents with stakeholders.",
-            remarks: "Enhances incident communication capabilities.",
+            remarks: "Capability to communicate about security incidents with stakeholders.",
+            guidance: "Enhances incident communication capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-13",
+            id: "sec_moni-2-16-13",
             text: "Incident closure",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to close security incidents.",
-            remarks: "Enhances incident closure capabilities.",
+            remarks: "Capability to close security incidents.",
+            guidance: "Enhances incident closure capabilities.",
             isSubquestion: true
           },
           {
-            id: "serv-2-16-14",
+            id: "sec_moni-2-16-14",
             text: "Incident lessons learned",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Capability to document lessons learned from security incidents.",
-            remarks: "Enhances continuous improvement of incident management.",
+            remarks: "Capability to document lessons learned from security incidents.",
+            guidance: "Enhances continuous improvement of incident management.",
             isSubquestion: true
           },
           {
-            id: "serv-2-17",
+            id: "sec_moni-2-17",
             text: "Specify rationale for chosen values or any additional comments",
             type: "text",
-            guidance: "Space to provide any relevant context or any additional comments.",
-            remarks: "Use this outcome to determine the score for 1.2."
+            remarks: "Space to provide any relevant context or any additional comments.",
+            guidance: "Use this outcome to determine the score for 1.2."
           },
           {
-            id: "serv-3",
+            id: "sec_moni-3",
             text: "Security Analysis & Forensics",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-3-1",
+            id: "sec_moni-3-1",
             text: "Have you formally described the security analysis & forensics service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A service description should be in place.",
-            remarks: "Ensures clear understanding of the service scope and objectives."
+            remarks: "A service description should be in place.",
+            guidance: "Ensures clear understanding of the service scope and objectives."
           },
           {
-            id: "serv-3-2",
+            id: "sec_moni-3-2",
             text: "Please specify elements of the security analysis & forensics service document:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-3-2-1",
+            id: "sec_moni-3-2-1",
             text: "Key performance indicators",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Indicators to establish the performance of the service.",
-            remarks: "Helps in measuring the effectiveness of the service.",
+            remarks: "Indicators to establish the performance of the service.",
+            guidance: "Helps in measuring the effectiveness of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-2",
+            id: "sec_moni-3-2-2",
             text: "Quality indicators",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Indicators to establish the quality of service delivery.",
-            remarks: "Helps in assessing the service quality.",
+            remarks: "Indicators to establish the quality of service delivery.",
+            guidance: "Helps in assessing the service quality.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-3",
+            id: "sec_moni-3-2-3",
             text: "Service dependencies",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
-            remarks: "Ensures all necessary components are considered.",
+            remarks: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
+            guidance: "Ensures all necessary components are considered.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-4",
+            id: "sec_moni-3-2-4",
             text: "Service levels",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Agreements on minimum performance, capacity, availability, etc.",
-            remarks: "Sets expectations for service delivery.",
+            remarks: "Agreements on minimum performance, capacity, availability, etc.",
+            guidance: "Sets expectations for service delivery.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-5",
+            id: "sec_moni-3-2-5",
             text: "Hours of operation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The operational hours for this service (e.g., 24/7).",
-            remarks: "Defines the service availability.",
+            remarks: "The operational hours for this service (e.g., 24/7).",
+            guidance: "Defines the service availability.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-6",
+            id: "sec_moni-3-2-6",
             text: "Service customers and stakeholders",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The customers and stakeholders for this service (e.g., IT management).",
-            remarks: "Identifies who benefits from the service.",
+            remarks: "The customers and stakeholders for this service (e.g., IT management).",
+            guidance: "Identifies who benefits from the service.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-7",
+            id: "sec_moni-3-2-7",
             text: "Purpose",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The purpose and objectives for this service.",
-            remarks: "Clarifies the intent of the service.",
+            remarks: "The purpose and objectives for this service.",
+            guidance: "Clarifies the intent of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-8",
+            id: "sec_moni-3-2-8",
             text: "Service input / triggers",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The service input: what triggers this service to run?",
-            remarks: "Defines the conditions under which the service operates.",
+            remarks: "The service input: what triggers this service to run?",
+            guidance: "Defines the conditions under which the service operates.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-9",
+            id: "sec_moni-3-2-9",
             text: "Service output / deliverables",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "The service output: what does the service deliver? Can be tangible (e.g., reports) or intangible (e.g., situational awareness).",
-            remarks: "Specifies the outcomes of the service.",
+            remarks: "The service output: what does the service deliver? Can be tangible (e.g., reports) or intangible (e.g., situational awareness).",
+            guidance: "Specifies the outcomes of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-10",
+            id: "sec_moni-3-2-10",
             text: "Service activities",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Which activities are carried out within the scope of the service?",
-            remarks: "Details the actions performed as part of the service.",
+            remarks: "Which activities are carried out within the scope of the service?",
+            guidance: "Details the actions performed as part of the service.",
             isSubquestion: true
           },
           {
-            id: "serv-3-2-11",
+            id: "sec_moni-3-2-11",
             text: "Service roles & responsibilities",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Which roles and responsibilities apply to this service?",
-            remarks: "Defines the roles involved in service delivery.",
+            remarks: "Which roles and responsibilities apply to this service?",
+            guidance: "Defines the roles involved in service delivery.",
             isSubquestion: true
           },
           {
-            id: "serv-3-3",
+            id: "sec_moni-3-3",
             text: "Is the service measured for quality?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Are the quality indicators from the previous questions used for reporting on the service?",
-            remarks: "Ensures the service quality is tracked and reported."
+            remarks: "Are the quality indicators from the previous questions used for reporting on the service?",
+            guidance: "Ensures the service quality is tracked and reported."
           },
           {
-            id: "serv-3-4",
+            id: "sec_moni-3-4",
             text: "Is the service measured for service delivery in accordance with service levels?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service levels should be used to formally commit the SOC to service delivery.",
-            remarks: "Ensures service delivery meets agreed standards."
+            remarks: "Service levels should be used to formally commit the SOC to service delivery.",
+            guidance: "Ensures service delivery meets agreed standards."
           },
           {
-            id: "serv-3-5",
+            id: "sec_moni-3-5",
             text: "Are customers and/or stakeholders regularly updated about the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Changes to the service scope, delivery, etc.",
-            remarks: "Keeps stakeholders informed about service changes."
+            remarks: "Changes to the service scope, delivery, etc.",
+            guidance: "Keeps stakeholders informed about service changes."
           },
           {
-            id: "serv-3-6",
+            id: "sec_moni-3-6",
             text: "Is there a contractual agreement between the SOC and the customers?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Contractual agreements should also cover penalties.",
-            remarks: "Formalizes the service agreement and expectations."
+            remarks: "Contractual agreements should also cover penalties.",
+            guidance: "Formalizes the service agreement and expectations."
           },
           {
-            id: "serv-3-7",
+            id: "sec_moni-3-7",
             text: "Is sufficient personnel allocated to the process to ensure required service delivery?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Allocation of dedicated personnel will ensure highest service quality.",
-            remarks: "Ensures adequate staffing for service delivery."
+            remarks: "Allocation of dedicated personnel will ensure highest service quality.",
+            guidance: "Ensures adequate staffing for service delivery."
           },
           {
-            id: "serv-3-8",
+            id: "sec_moni-3-8",
             text: "Is the service aligned with other relevant processes?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "e.g., alignment with configuration management, incident management, etc.",
-            remarks: "Ensures the service integrates well with other processes."
+            remarks: "e.g., alignment with configuration management, incident management, etc.",
+            guidance: "Ensures the service integrates well with other processes."
           },
           {
-            id: "serv-3-9",
+            id: "sec_moni-3-9",
             text: "Is there an incident resolution / service continuity process in place for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
-            remarks: "Ensures service continuity during incidents."
+            remarks: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
+            guidance: "Ensures service continuity during incidents."
           },
           {
-            id: "serv-3-10",
+            id: "sec_moni-3-10",
             text: "Has a set of procedures been created for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
-            remarks: "Ensures standardized service delivery."
+            remarks: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
+            guidance: "Ensures standardized service delivery."
           },
           {
-            id: "serv-3-11",
+            id: "sec_moni-3-11",
             text: "Is there an onboarding and offboarding procedure for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Customer onboarding and offboarding procedures support efficient service delivery and ensure customers are (dis)connected properly.",
-            remarks: "Ensures smooth customer transitions."
+            remarks: "Customer onboarding and offboarding procedures support efficient service delivery and ensure customers are (dis)connected properly.",
+            guidance: "Ensures smooth customer transitions."
           },
           {
-            id: "serv-3-12",
+            id: "sec_moni-3-12",
             text: "Are best practices applied to the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
-            guidance: "Best practices should be used to optimize this service.",
-            remarks: "Ensures the service follows industry best practices."
+            remarks: "Best practices should be used to optimize this service.",
+            guidance: "Ensures the service follows industry best practices."
           },
           {
-            id: "serv-3-13",
+            id: "sec_moni-3-13",
             text: "Are use cases used in the security analysis & forensics service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6859,7 +6860,7 @@ const assessmentData: AssessmentData = {
             remarks: "Helps in understanding and addressing specific scenarios."
           },
           {
-            id: "serv-3-14",
+            id: "sec_moni-3-14",
             text: "Is process data gathered for prediction of service performance?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6867,7 +6868,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures data-driven performance predictions."
           },
           {
-            id: "serv-3-15",
+            id: "sec_moni-3-15",
             text: "Is the service continuously being improved based on improvement goals?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6875,13 +6876,13 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures continuous service improvement."
           },
           {
-            id: "serv-3-16",
+            id: "sec_moni-3-16",
             text: "Please specify capabilities of the security analysis & forensics service:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-3-16-1",
+            id: "sec_moni-3-16-1",
             text: "Forensic data collection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6890,7 +6891,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-2",
+            id: "sec_moni-3-16-2",
             text: "Forensic data preservation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6899,7 +6900,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-3",
+            id: "sec_moni-3-16-3",
             text: "Forensic data analysis",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6908,7 +6909,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-4",
+            id: "sec_moni-3-16-4",
             text: "Forensic reporting",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6917,7 +6918,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-5",
+            id: "sec_moni-3-16-5",
             text: "Forensic evidence presentation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6926,7 +6927,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-6",
+            id: "sec_moni-3-16-6",
             text: "Forensic tool integration",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6935,7 +6936,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-7",
+            id: "sec_moni-3-16-7",
             text: "Forensic data correlation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6944,7 +6945,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-8",
+            id: "sec_moni-3-16-8",
             text: "Forensic data visualization",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6953,7 +6954,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-9",
+            id: "sec_moni-3-16-9",
             text: "Forensic data storage",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6962,7 +6963,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-10",
+            id: "sec_moni-3-16-10",
             text: "Forensic data sharing",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6971,7 +6972,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-16-11",
+            id: "sec_moni-3-16-11",
             text: "Forensic data chain of custody",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -6980,20 +6981,20 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-3-17",
+            id: "sec_moni-3-17",
             text: "Specify rationale for chosen values or any additional comments",
             type: "text",
             guidance: "Space to provide any relevant context or any additional comments.",
             remarks: "Use this outcome to determine the score for 1.2."
           },
           {
-            id: "serv-4",
+            id: "sec_moni-4",
             text: "Threat Intelligence",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-4-1",
+            id: "sec_moni-4-1",
             text: "Have you formally described the threat intelligence service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7001,13 +7002,13 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures clear understanding of the service scope and objectives."
           },
           {
-            id: "serv-4-2",
+            id: "sec_moni-4-2",
             text: "Please specify elements of the threat intelligence service document:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-4-2-1",
+            id: "sec_moni-4-2-1",
             text: "Key performance indicators",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7016,7 +7017,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-2",
+            id: "sec_moni-4-2-2",
             text: "Quality indicators",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7025,7 +7026,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-3",
+            id: "sec_moni-4-2-3",
             text: "Service dependencies",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7034,7 +7035,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-4",
+            id: "sec_moni-4-2-4",
             text: "Service levels",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7043,7 +7044,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-5",
+            id: "sec_moni-4-2-5",
             text: "Hours of operation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7052,7 +7053,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-6",
+            id: "sec_moni-4-2-6",
             text: "Service customers and stakeholders",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7061,7 +7062,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-7",
+            id: "sec_moni-4-2-7",
             text: "Purpose",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7070,7 +7071,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-8",
+            id: "sec_moni-4-2-8",
             text: "Service input / triggers",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7079,7 +7080,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-9",
+            id: "sec_moni-4-2-9",
             text: "Service output / deliverables",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7088,7 +7089,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-10",
+            id: "sec_moni-4-2-10",
             text: "Service activities",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7097,7 +7098,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-2-11",
+            id: "sec_moni-4-2-11",
             text: "Service roles & responsibilities",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7106,7 +7107,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-3",
+            id: "sec_moni-4-3",
             text: "Is the service measured for quality?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7114,7 +7115,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures the service quality is tracked and reported."
           },
           {
-            id: "serv-4-4",
+            id: "sec_moni-4-4",
             text: "Is the service measured for service delivery in accordance with service levels?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7122,7 +7123,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures service delivery meets agreed standards."
           },
           {
-            id: "serv-4-5",
+            id: "sec_moni-4-5",
             text: "Are customers and/or stakeholders regularly updated about the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7130,7 +7131,7 @@ const assessmentData: AssessmentData = {
             remarks: "Keeps stakeholders informed about service changes."
           },
           {
-            id: "serv-4-6",
+            id: "sec_moni-4-6",
             text: "Is there a contractual agreement between the SOC and the customers?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7138,7 +7139,7 @@ const assessmentData: AssessmentData = {
             remarks: "Formalizes the service agreement and expectations."
           },
           {
-            id: "serv-4-7",
+            id: "sec_moni-4-7",
             text: "Is sufficient personnel allocated to the process to ensure required service delivery?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7146,7 +7147,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures adequate staffing for service delivery."
           },
           {
-            id: "serv-4-8",
+            id: "sec_moni-4-8",
             text: "Is the service aligned with other relevant processes?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7154,7 +7155,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures the service integrates well with other processes."
           },
           {
-            id: "serv-4-9",
+            id: "sec_moni-4-9",
             text: "Is there an incident resolution / service continuity process in place for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7162,7 +7163,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures service continuity during incidents."
           },
           {
-            id: "serv-4-10",
+            id: "sec_moni-4-10",
             text: "Has a set of procedures been created for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7170,7 +7171,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures standardized service delivery."
           },
           {
-            id: "serv-4-11",
+            id: "sec_moni-4-11",
             text: "Is there an onboarding and offboarding procedure for this service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7178,7 +7179,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures smooth customer transitions."
           },
           {
-            id: "serv-4-12",
+            id: "sec_moni-4-12",
             text: "Are best practices applied to the service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7186,7 +7187,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures the service follows industry best practices."
           },
           {
-            id: "serv-4-13",
+            id: "sec_moni-4-13",
             text: "Are use cases used in the threat intelligence service?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7194,7 +7195,7 @@ const assessmentData: AssessmentData = {
             remarks: "Helps in understanding and addressing specific scenarios."
           },
           {
-            id: "serv-4-14",
+            id: "sec_moni-4-14",
             text: "Is process data gathered for prediction of service performance?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7202,7 +7203,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures data-driven performance predictions."
           },
           {
-            id: "serv-4-15",
+            id: "sec_moni-4-15",
             text: "Is the service continuously being improved based on improvement goals?",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7210,13 +7211,13 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures continuous service improvement."
           },
           {
-            id: "serv-4-16",
+            id: "sec_moni-4-16",
             text: "Please specify capabilities of the threat intelligence service:",
             type: "header",
             isHeader: true
           },
           {
-            id: "serv-4-16-1",
+            id: "sec_moni-4-16-1",
             text: "Threat intelligence collection",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7225,7 +7226,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-2",
+            id: "sec_moni-4-16-2",
             text: "Threat intelligence analysis",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7234,7 +7235,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-3",
+            id: "sec_moni-4-16-3",
             text: "Threat intelligence sharing",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7243,7 +7244,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-4",
+            id: "sec_moni-4-16-4",
             text: "Threat intelligence integration",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7252,7 +7253,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-5",
+            id: "sec_moni-4-16-5",
             text: "Threat intelligence reporting",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7261,7 +7262,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-6",
+            id: "sec_moni-4-16-6",
             text: "Threat intelligence correlation",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7270,7 +7271,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-7",
+            id: "sec_moni-4-16-7",
             text: "Threat intelligence visualization",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7279,7 +7280,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-8",
+            id: "sec_moni-4-16-8",
             text: "Threat intelligence storage",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7288,7 +7289,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-16-9",
+            id: "sec_moni-4-16-9",
             text: "Threat intelligence enrichment",
             type: "dropdown",
             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
@@ -7297,7 +7298,7 @@ const assessmentData: AssessmentData = {
             isSubquestion: true
           },
           {
-            id: "serv-4-17",
+            id: "sec_moni-4-17",
             text: "Specify rationale for chosen values or any additional comments",
             type: "text",
             guidance: "Space to provide any relevant context or any additional comments.",
@@ -7309,13 +7310,13 @@ const assessmentData: AssessmentData = {
         name: "Security Incident Management",
         questions: [
           {
-            id: "sec-1",
+            id: "sec_inc-1",
             text: "Maturity Assessment",
             type: "header",
             isHeader: true
           },
           {
-            id: "sec-1-1",
+            id: "sec_inc-1-1",
             text: "Have you adopted a maturity assessment methodology for Security Incident Management?",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7323,43 +7324,43 @@ const assessmentData: AssessmentData = {
             remarks: "e.g., SOC-CMM 4CERT, SIM3, CREST, etc."
           },
           {
-            id: "sec-1-1-1",
+            id: "sec_inc-1-1-1",
             text: "If yes, please specify the methodology",
             type: "text",
             guidance: "e.g., SOC-CMM 4CERT, SIM3, CREST, etc.",
             remarks: "Specify the methodology if adopted."
           },
           {
-            id: "sec-1-1-2",
+            id: "sec_inc-1-1-2",
             text: "If yes, please specify the maturity level (can have up to 2 digits)",
             type: "text",
             guidance: "Please convert to a 5-point scale if required. For example: 3.6 on a 4-point scale = 4.5 on a 5-point scale",
             remarks: "The score in 2.1.2 overrules any maturity scoring in this section."
           },
           {
-            id: "sec-1-2",
+            id: "sec_inc-1-2",
             text: "Have you adopted a standard for the Security Incident Management process?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "e.g. NIST 800-62r1, CERT handbook, etc.",
             remarks: "Specify the standard if adopted."
           },
           {
-            id: "sec-1-3",
+            id: "sec_inc-1-3",
             text: "Have you formally described the security incident management process?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A service description should be in place.",
             remarks: "Ensures clarity in the process."
           },
           {
-            id: "sec-2",
+            id: "sec_inc-2",
             text: "Security Incident Management Document Elements",
             type: "header",
             isHeader: true
           },
           {
-            id: "sec-2-1",
+            id: "sec_inc-2-1",
             text: "Security incident definition",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7367,7 +7368,7 @@ const assessmentData: AssessmentData = {
             remarks: "Ensures understanding of what constitutes a security incident."
           },
           {
-            id: "sec-2-2",
+            id: "sec_inc-2-2",
             text: "Service levels",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7375,7 +7376,7 @@ const assessmentData: AssessmentData = {
             remarks: "Defines expected response times."
           },
           {
-            id: "sec-2-3",
+            id: "sec_inc-2-3",
             text: "Workflow",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7383,7 +7384,7 @@ const assessmentData: AssessmentData = {
             remarks: "Outlines the steps in the incident management process."
           },
           {
-            id: "sec-2-4",
+            id: "sec_inc-2-4",
             text: "Decision tree",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7391,7 +7392,7 @@ const assessmentData: AssessmentData = {
             remarks: "Guides decision-making during incidents."
           },
           {
-            id: "sec-2-5",
+            id: "sec_inc-2-5",
             text: "Hours of operation",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7399,7 +7400,7 @@ const assessmentData: AssessmentData = {
             remarks: "Defines availability of the incident response team."
           },
           {
-            id: "sec-2-6",
+            id: "sec_inc-2-6",
             text: "Service customers and stakeholders",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7407,7 +7408,7 @@ const assessmentData: AssessmentData = {
             remarks: "Identifies who is affected by the service."
           },
           {
-            id: "sec-2-7",
+            id: "sec_inc-2-7",
             text: "Purpose",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7415,7 +7416,7 @@ const assessmentData: AssessmentData = {
             remarks: "Clarifies the goals of the service."
           },
           {
-            id: "sec-2-8",
+            id: "sec_inc-2-8",
             text: "Service input / triggers",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7423,7 +7424,7 @@ const assessmentData: AssessmentData = {
             remarks: "Identifies what initiates the service."
           },
           {
-            id: "sec-2-9",
+            id: "sec_inc-2-9",
             text: "Service output / deliverables",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7431,7 +7432,7 @@ const assessmentData: AssessmentData = {
             remarks: "Defines the outcomes of the service."
           },
           {
-            id: "sec-2-10",
+            id: "sec_inc-2-10",
             text: "Service activities",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7439,7 +7440,7 @@ const assessmentData: AssessmentData = {
             remarks: "Lists the activities involved in the service."
           },
           {
-            id: "sec-2-11",
+            id: "sec_inc-2-11",
             text: "Service roles & responsibilities",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7447,92 +7448,86 @@ const assessmentData: AssessmentData = {
             remarks: "Defines who is responsible for what in the service."
           },
           {
-            id: "sec-2-completeness",
+            id: "sec_inc-2-completeness",
             text: "Completeness",
             type: "completeness",
             guidance: "Use this outcome to determine the score for 2.4",
             remarks: "Assesses the completeness of the document elements."
           },
           {
-            id: "sec-3",
-            text: "Service Quality and Delivery",
-            type: "header",
-            isHeader: true
-          },
-          {
-            id: "sec-3-1",
+            id: "sec_inc-3-1",
             text: "Is the service measured for quality?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Are the quality indicators from the previous questions used for reporting on the service?",
             remarks: "Ensures quality is tracked and reported."
           },
           {
-            id: "sec-3-2",
+            id: "sec_inc-3-2",
             text: "Is the service measured for service delivery in accordance with service levels?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service levels should be used to formally commit the SOC to service delivery.",
             remarks: "Ensures service levels are met."
           },
           {
-            id: "sec-3-3",
+            id: "sec_inc-3-3",
             text: "Are customers and/or stakeholders regularly updated about the service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Changes to the service scope, delivery, etc.",
             remarks: "Keeps stakeholders informed."
           },
           {
-            id: "sec-3-4",
+            id: "sec_inc-3-4",
             text: "Is there a contractual agreement between the SOC and the customers?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Contractual agreements should also cover penalties.",
             remarks: "Formalizes the service agreement."
           },
           {
-            id: "sec-3-5",
+            id: "sec_inc-3-5",
             text: "Is sufficient personnel allocated to the process to ensure required service delivery?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Allocation of dedicated personnel will ensure highest service quality.",
             remarks: "Ensures adequate staffing for service delivery."
           },
           {
-            id: "sec-3-6",
+            id: "sec_inc-3-6",
             text: "Is the service aligned with other relevant processes?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "e.g. alignment with configuration management, incident management, etc.",
             remarks: "Ensures consistency with other processes."
           },
           {
-            id: "sec-3-7",
+            id: "sec_inc-3-7",
             text: "Is the incident response team authorized to perform (invasive) actions when required?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "This is a mandate issue. The team should have mandate beforehand to optimize incident response times.",
             remarks: "Ensures the team can act quickly."
           },
           {
-            id: "sec-3-8",
+            id: "sec_inc-3-8",
             text: "Is there an onboarding and offloading procedure for this service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Customer onboarding and offloading procedures support efficient service delivery and ensure customers are (dis)connected properly.",
             remarks: "Ensures smooth transitions for customers."
           },
           {
-            id: "sec-3-9",
+            id: "sec_inc-3-9",
             text: "Are best practices applied to the service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Best practices should be used to optimize this service.",
             remarks: "Ensures the service follows best practices."
           },
           {
-            id: "sec-3-10",
+            id: "sec_inc-3-10",
             text: "Is the service supported by predefined workflows or scenarios?",
             type: "dropdown",
             options: ["No", "Yes"],
@@ -7540,324 +7535,360 @@ const assessmentData: AssessmentData = {
             remarks: "Provides structure to the service."
           },
           {
-            id: "sec-3-11",
+            id: "sec_inc-3-11",
             text: "Is process data gathered for prediction of service performance?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service performance measurement requires establishment of performance goals.",
             remarks: "Enables performance prediction."
           },
           {
-            id: "sec-3-12",
+            id: "sec_inc-3-12",
             text: "Is the service continuously being improved based on improvement goals?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Improvement based on evaluation, (maturity) assessment, tests, etc.",
             remarks: "Ensures continuous improvement."
           },
           {
-            id: "sec-4",
-            text: "Capabilities and Artefacts",
+            id: "sec_inc-4",
+            text: "Please specify capabilities and artefacts of the security incident management service:",
             type: "header",
             isHeader: true
           },
           {
-            id: "sec-4-1",
+            id: "sec_inc-4-1",
             text: "Incident logging procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Part of preparation procedures.",
-            remarks: "Ensures incidents are logged."
+            remarks: "Ensures incidents are logged.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-2",
+            id: "sec_inc-4-2",
             text: "Incident resolution procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Part of preparation procedures. Likely involves a checklist and a workflow for incident handling.",
-            remarks: "Ensures incidents are resolved systematically."
+            remarks: "Ensures incidents are resolved systematically.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-3",
+            id: "sec_inc-4-3",
             text: "Incident investigation procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Part of preparation procedures. Includes triage procedure and investigation / analysis procedures.",
-            remarks: "Ensures thorough investigation of incidents."
+            remarks: "Ensures thorough investigation of incidents.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-4",
+            id: "sec_inc-4-4",
             text: "Escalation procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Part of preparation procedures.",
-            remarks: "Ensures incidents are escalated appropriately."
+            remarks: "Ensures incidents are escalated appropriately.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-5",
+            id: "sec_inc-4-5",
             text: "Evidence collection procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Part of preparation procedures.",
-            remarks: "Ensures evidence is collected systematically."
+            remarks: "Ensures evidence is collected systematically.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-6",
+            id: "sec_inc-4-6",
             text: "Incident containment procedures",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Part of preparation procedures. Can be based on RE&CT framework.",
-            remarks: "Ensures incidents are contained effectively."
+            remarks: "Ensures incidents are contained effectively.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-7",
+            id: "sec_inc-4-7",
             text: "IR Training",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Preparation exercises to determine service effectiveness.",
-            remarks: "Ensures the team is trained."
+            remarks: "Ensures the team is trained.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-8",
+            id: "sec_inc-4-8",
             text: "Table-top exercises",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Preparation exercises to determine service effectiveness.",
-            remarks: "Ensures the team is prepared."
+            remarks: "Ensures the team is prepared.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-9",
+            id: "sec_inc-4-9",
             text: "Red team / blue team exercises",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Preparation exercises to determine service effectiveness.",
-            remarks: "Ensures the team is prepared for real incidents."
+            remarks: "Ensures the team is prepared for real incidents.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-10",
+            id: "sec_inc-4-10",
             text: "RACI matrix",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Matrix with Responsibility, Accountability and Consulted and Informed entities for the process.",
-            remarks: "Clarifies roles and responsibilities."
+            remarks: "Clarifies roles and responsibilities.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-11",
+            id: "sec_inc-4-11",
             text: "Response authorization",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Authorization from senior management to take any action required for incident mitigation (e.g. disconnect systems).",
-            remarks: "Ensures actions can be taken quickly."
+            remarks: "Ensures actions can be taken quickly.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-12",
+            id: "sec_inc-4-12",
             text: "Incident template",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Templates for security incident management registration.",
-            remarks: "Ensures consistent incident reporting."
+            remarks: "Ensures consistent incident reporting.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-13",
+            id: "sec_inc-4-13",
             text: "Incident tracking system",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A system that supports the security incident management workflow. If possible dedicated or supporting ticket confidentiality.",
-            remarks: "Ensures incidents are tracked systematically."
+            remarks: "Ensures incidents are tracked systematically.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-14",
+            id: "sec_inc-4-14",
             text: "False-positive reduction",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A procedure to avoid false-positives in the security incident management process.",
-            remarks: "Reduces false alarms."
+            remarks: "Reduces false alarms.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-15",
+            id: "sec_inc-4-15",
             text: "Priority assignment",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Assignment of priority to the incident, part of impact and magnitude assessment.",
-            remarks: "Ensures incidents are prioritized correctly."
+            remarks: "Ensures incidents are prioritized correctly.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-16",
+            id: "sec_inc-4-16",
             text: "Severity assignment",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Assignment of severity to the incident, part of impact and magnitude assessment.",
-            remarks: "Ensures incidents are assessed for severity."
+            remarks: "Ensures incidents are assessed for severity.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-17",
+            id: "sec_inc-4-17",
             text: "Categorization",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Categorization of the incident. For example, the VERIS framework could be used for classification.",
-            remarks: "Ensures incidents are categorized correctly."
+            remarks: "Ensures incidents are categorized correctly.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-18",
+            id: "sec_inc-4-18",
             text: "Critical bridge",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A communication bridge for continuous alignment of employees involved in security incident management.",
-            remarks: "Ensures continuous communication."
+            remarks: "Ensures continuous communication.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-19",
+            id: "sec_inc-4-19",
             text: "War room",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A dedicated facility for coordination of security incidents.",
-            remarks: "Provides a space for incident coordination."
+            remarks: "Provides a space for incident coordination.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-20",
+            id: "sec_inc-4-20",
             text: "Communication plan & email templates",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Standardized plans and templates for communication. Includes reachability in case of emergency and outreach to customers.",
-            remarks: "Ensures standardized communication."
+            remarks: "Ensures standardized communication.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-21",
+            id: "sec_inc-4-21",
             text: "Backup communication technology",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Backup communication technology in case of failure of primary means. Includes internet access, email systems and phones.",
-            remarks: "Ensures communication continuity."
+            remarks: "Ensures communication continuity.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-22",
+            id: "sec_inc-4-22",
             text: "Secure communication channels",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Encrypted and secure communications (includes email and phones) that can be used during incident response.",
-            remarks: "Ensures secure communication."
+            remarks: "Ensures secure communication.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-23",
+            id: "sec_inc-4-23",
             text: "(dedicated) information sharing platform",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A platform for sharing information regarding the security incident.",
-            remarks: "Ensures information is shared effectively."
+            remarks: "Ensures information is shared effectively.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-24",
+            id: "sec_inc-4-24",
             text: "Change management integration",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Integration with the change management process for any actions taken in the security incident management process.",
-            remarks: "Ensures changes are managed properly."
+            remarks: "Ensures changes are managed properly.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-25",
+            id: "sec_inc-4-25",
             text: "Malware extraction & analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Extraction and analysis of malware.",
-            remarks: "Ensures malware is analyzed effectively."
+            remarks: "Ensures malware is analyzed effectively.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-26",
+            id: "sec_inc-4-26",
             text: "On-site incident response",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Localized incident response capability.",
-            remarks: "Ensures on-site response is possible."
+            remarks: "Ensures on-site response is possible.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-27",
+            id: "sec_inc-4-27",
             text: "Remote incident response",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Remote incident response capability.",
-            remarks: "Ensures remote response is possible."
+            remarks: "Ensures remote response is possible.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-28",
+            id: "sec_inc-4-28",
             text: "Third-party escalation",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Escalation process to third parties (vendors, partners, etc.).",
-            remarks: "Ensures escalation to third parties is possible."
+            remarks: "Ensures escalation to third parties is possible.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-29",
+            id: "sec_inc-4-29",
             text: "Evaluation template",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A template for post-incident evaluation.",
-            remarks: "Ensures incidents are evaluated systematically."
+            remarks: "Ensures incidents are evaluated systematically.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-30",
+            id: "sec_inc-4-30",
             text: "Reporting template",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A template for reporting on the security incident.",
-            remarks: "Ensures incidents are reported systematically."
+            remarks: "Ensures incidents are reported systematically.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-31",
+            id: "sec_inc-4-31",
             text: "Incident closure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Formal closure of the incident, including debriefing sessions.",
-            remarks: "Ensures incidents are closed properly."
+            remarks: "Ensures incidents are closed properly.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-32",
+            id: "sec_inc-4-32",
             text: "Lessons learned extraction for process improvement",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Continuous improvement based on previous experiences.",
-            remarks: "Ensures lessons are learned and applied."
+            remarks: "Ensures lessons are learned and applied.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-33",
+            id: "sec_inc-4-33",
             text: "External security incident support agreements",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Retainer for incident response as a service in case of major breaches.",
-            remarks: "Ensures external support is available."
+            remarks: "Ensures external support is available.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-34",
+            id: "sec_inc-4-34",
             text: "Exercises with other incident response teams",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Exercises with other IR teams, for example outsourcing partners and other teams in the sector.",
-            remarks: "Ensures coordination with other teams."
+            remarks: "Ensures coordination with other teams.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-35",
+            id: "sec_inc-4-35",
             text: "Root Cause Analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Investigation and reporting on the root cause of the incident. Required for optimizing lessons learned for the organization.",
-            remarks: "Ensures root causes are identified and addressed."
+            remarks: "Ensures root causes are identified and addressed.",
+            isSubquestion: true
           },
           {
-            id: "sec-4-36",
+            id: "sec_inc-4-36",
             text: "Restore integrity verification",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Verification that backups and restored assets do not contain IoCs or backdoors used in the initial incident.",
-            remarks: "Ensures integrity of restored systems."
+            remarks: "Ensures integrity of restored systems.",
+            isSubquestion: true
           },
           {
-            id: "sec-completeness",
+            id: "sec_inc-completeness",
             text: "Completeness",
             type: "completeness",
             guidance: "Assesses the completeness of the capabilities and artefacts.",
             remarks: "Ensures all aspects are covered."
           },
           {
-            id: "sec-comments",
+            id: "sec_inc-comments",
             text: "Comments and/or Remarks",
             type: "text",
             guidance: "Space to provide any relevant context or any additional comments."
@@ -7867,438 +7898,461 @@ const assessmentData: AssessmentData = {
       "security_analysis_forensics": {
         name: "Security Analysis & Forensics",
         questions: [
+          
           {
-            id: "sec-an-1",
-            text: "Service Description",
-            type: "header",
-            isHeader: true
-          },
-          {
-            id: "sec-an-1-1",
+            id: "sec_an-1-1",
             text: "Have you formally described the security analysis & forensics service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A service description should be in place.",
             remarks: "Ensures clarity in the service scope."
           },
           {
-            id: "sec-an-2",
-            text: "Security Analysis Service Document Elements",
+            id: "sec_an-2",
+            text: "Please specify elements of the security analysis service document:",
             type: "header",
             isHeader: true
           },
           {
-            id: "sec-an-2-1",
+            id: "sec_an-2-1",
             text: "Key performance indicators",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Indicators to establish the performance of the service.",
-            remarks: "Ensures performance is tracked."
+            remarks: "Ensures performance is tracked.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-2",
+            id: "sec_an-2-2",
             text: "Quality indicators",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Indicators to establish the quality of service delivery.",
-            remarks: "Ensures quality is maintained."
+            remarks: "Ensures quality is maintained.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-3",
+            id: "sec_an-2-3",
             text: "Service dependencies",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
-            remarks: "Ensures dependencies are managed."
+            remarks: "Ensures dependencies are managed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-4",
+            id: "sec_an-2-4",
             text: "Service levels",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Agreements on minimum performance, capacity, availability, etc.",
-            remarks: "Ensures service levels are met."
+            remarks: "Ensures service levels are met.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-5",
+            id: "sec_an-2-5",
             text: "Hours of operation",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The operational hours for this service (e.g. 24/7).",
-            remarks: "Defines service availability."
+            remarks: "Defines service availability.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-6",
+            id: "sec_an-2-6",
             text: "Service customers and stakeholders",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The customers and stakeholders for this service (e.g. IT management).",
-            remarks: "Identifies who is affected by the service."
+            remarks: "Identifies who is affected by the service.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-7",
+            id: "sec_an-2-7",
             text: "Purpose",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The purpose and objectives for this service.",
-            remarks: "Clarifies the goals of the service."
+            remarks: "Clarifies the goals of the service.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-8",
+            id: "sec_an-2-8",
             text: "Service input / triggers",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The service input: what triggers this service to run?",
-            remarks: "Identifies what initiates the service."
+            remarks: "Identifies what initiates the service.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-9",
+            id: "sec_an-2-9",
             text: "Service output / deliverables",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The service output: what does the service deliver? Can be tangible (e.g. reports) or intangible (e.g. situational awareness).",
-            remarks: "Defines the outcomes of the service."
+            remarks: "Defines the outcomes of the service.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-10",
+            id: "sec_an-2-10",
             text: "Service activities",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Which activities are carried out within the scope of the service?",
-            remarks: "Lists the activities involved in the service."
+            remarks: "Lists the activities involved in the service.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-11",
+            id: "sec_an-2-11",
             text: "Service roles & responsibilities",
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Which roles and responsibilities apply to this service?",
-            remarks: "Defines who is responsible for what in the service."
+            remarks: "Defines who is responsible for what in the service.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-2-completeness",
+            id: "sec_an-2-completeness",
             text: "Completeness",
             type: "completeness",
             guidance: "Use this outcome to determine the score for 3.2",
             remarks: "Assesses the completeness of the document elements."
           },
           {
-            id: "sec-an-3",
-            text: "Service Quality and Delivery",
-            type: "header",
-            isHeader: true
-          },
-          {
-            id: "sec-an-3-1",
+            id: "sec_an-3-1",
             text: "Is the service measured for quality?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Are the quality indicators from the previous questions used for reporting on the service?",
             remarks: "Ensures quality is tracked and reported."
           },
           {
-            id: "sec-an-3-2",
+            id: "sec_an-3-2",
             text: "Is the service measured for service delivery in accordance with service levels?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service levels should be used to formally commit the SOC to service delivery.",
             remarks: "Ensures service levels are met."
           },
           {
-            id: "sec-an-3-3",
+            id: "sec_an-3-3",
             text: "Are customers and/or stakeholders regularly updated about the service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Changes to the service scope, delivery, etc.",
             remarks: "Keeps stakeholders informed."
           },
           {
-            id: "sec-an-3-4",
+            id: "sec_an-3-4",
             text: "Is there a contractual agreement between the SOC and the customers?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Contractual agreements should also cover penalties.",
             remarks: "Formalizes the service agreement."
           },
           {
-            id: "sec-an-3-5",
+            id: "sec_an-3-5",
             text: "Is sufficient personnel allocated to the process to ensure required service delivery?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Allocation of dedicated personnel will ensure highest service quality.",
             remarks: "Ensures adequate staffing for service delivery."
           },
           {
-            id: "sec-an-3-6",
+            id: "sec_an-3-6",
             text: "Is the service aligned with other relevant processes?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "e.g. alignment with configuration management, incident management, etc.",
             remarks: "Ensures consistency with other processes."
           },
           {
-            id: "sec-an-3-7",
+            id: "sec_an-3-7",
             text: "Is there an incident resolution / service continuity process in place for this service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
             remarks: "Ensures continuity of service."
           },
           {
-            id: "sec-an-3-8",
+            id: "sec_an-3-8",
             text: "Has a set of procedures been created for this service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
             remarks: "Ensures standardized procedures."
           },
           {
-            id: "sec-an-3-9",
+            id: "sec_an-3-9",
             text: "Is there an onboarding and offloading procedure for this service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Customer onboarding and offloading procedures support efficient service delivery and ensure customers are (dis)connected properly.",
             remarks: "Ensures smooth transitions for customers."
           },
           {
-            id: "sec-an-3-10",
+            id: "sec_an-3-10",
             text: "Are best practices applied to the service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Best practices should be used to optimize this service.",
             remarks: "Ensures the service follows best practices."
           },
           {
-            id: "sec-an-3-11",
+            id: "sec_an-3-11",
             text: "Is the service supported by predefined workflows or scenarios?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Use cases can be used to guide the analysis workflows.",
             remarks: "Provides structure to the service."
           },
           {
-            id: "sec-an-3-12",
+            id: "sec_an-3-12",
             text: "Is process data gathered for prediction of service performance?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service performance measurement requires establishment of performance goals.",
             remarks: "Enables performance prediction."
           },
           {
-            id: "sec-an-3-13",
+            id: "sec_an-3-13",
             text: "Is the service continuously being improved based on improvement goals?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Improvement based on evaluation, (maturity) assessment, tests, etc.",
             remarks: "Ensures continuous improvement."
           },
           {
-            id: "sec-an-4",
+            id: "sec_an-4",
             text: "Capabilities and Artefacts",
             type: "header",
             isHeader: true
           },
           {
-            id: "sec-an-4-1",
+            id: "sec_an-4-1",
             text: "Event analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Analysis of detailed events.",
-            remarks: "Ensures detailed event analysis."
+            remarks: "Ensures detailed event analysis.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-2",
+            id: "sec_an-4-2",
             text: "Event analysis toolkit",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A combination of internal and external tools that can be used for security event analysis purposes.",
             remarks: "Ensures tools are available for analysis."
           },
           {
-            id: "sec-an-4-3",
+            id: "sec_an-4-3",
             text: "Trend analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Analysis of trends in events or incidents.",
-            remarks: "Ensures trend analysis is performed."
+            remarks: "Ensures trend analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-4",
+            id: "sec_an-4-4",
             text: "Incident analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Analysis of security incidents.",
-            remarks: "Ensures incident analysis is performed."
+            remarks: "Ensures incident analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-5",
+            id: "sec_an-4-5",
             text: "Visual analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Visualization tools for data analysis.",
-            remarks: "Ensures visual analysis is possible."
+            remarks: "Ensures visual analysis is possible.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-6",
+            id: "sec_an-4-6",
             text: "Static malware analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Reverse engineering and disassembly of malware.",
-            remarks: "Ensures static malware analysis is performed."
+            remarks: "Ensures static malware analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-7",
+            id: "sec_an-4-7",
             text: "Dynamic malware analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Running malware in a controlled environment to determine its characteristics.",
-            remarks: "Ensures dynamic malware analysis is performed."
+            remarks: "Ensures dynamic malware analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-8",
+            id: "sec_an-4-8",
             text: "Tradecraft analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Analysis of the tradecraft of the attacker. This includes the tools, tactics, techniques, and procedures used by attackers.",
-            remarks: "Ensures tradecraft analysis is performed."
+            remarks: "Ensures tradecraft analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-9",
+            id: "sec_an-4-9",
             text: "Historic analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Analysis of historic information based on new insights. APTs can span multiple months or years.",
-            remarks: "Ensures historic analysis is performed."
+            remarks: "Ensures historic analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-10",
+            id: "sec_an-4-10",
             text: "Network analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Analysis of network traffic patterns and packets.",
-            remarks: "Ensures network analysis is performed."
+            remarks: "Ensures network analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-11",
+            id: "sec_an-4-11",
             text: "Memory analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Analysis of end-point memory, for example fileless malware.",
-            remarks: "Ensures memory analysis is performed."
+            remarks: "Ensures memory analysis is performed.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-12",
+            id: "sec_an-4-12",
             text: "Mobile device analysis",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Capability to perform forensic analysis of mobile devices.",
-            remarks: "Ensures mobile device analysis is possible."
+            remarks: "Ensures mobile device analysis is possible.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-13",
+            id: "sec_an-4-13",
             text: "Volatile information collection",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Collection of volatile information (such as memory; see RFC3227) requires swift response, as evidence may be lost quickly.",
-            remarks: "Ensures volatile information is collected."
+            remarks: "Ensures volatile information is collected.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-14",
+            id: "sec_an-4-14",
             text: "Remote evidence collection",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Capability to remotely collect evidence (files, disk images, memory dumps, etc.) from target systems.",
-            remarks: "Ensures remote evidence collection is possible."
+            remarks: "Ensures remote evidence collection is possible.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-15",
+            id: "sec_an-4-15",
             text: "Forensic hardware toolkit",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Hardware toolkits will likely at least consist of write-blockers for disk imaging.",
-            remarks: "Ensures hardware tools are available."
+            remarks: "Ensures hardware tools are available.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-16",
+            id: "sec_an-4-16",
             text: "Forensic analysis software toolkit",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Software tools used in forensic analysis.",
-            remarks: "Ensures software tools are available."
+            remarks: "Ensures software tools are available.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-17",
+            id: "sec_an-4-17",
             text: "Dedicated analysis workstations",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Dedicated workstations loaded with specialized tools should be used to make investigations more efficient.",
-            remarks: "Ensures dedicated workstations are available."
+            remarks: "Ensures dedicated workstations are available.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-18",
+            id: "sec_an-4-18",
             text: "Security analysis & forensics handbook",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A handbook that describes security analysis workflows, tools, exceptions, known issues, etc.",
-            remarks: "Ensures a handbook is available."
+            remarks: "Ensures a handbook is available.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-19",
+            id: "sec_an-4-19",
             text: "Security analysis & forensics workflows",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "An established workflow for performing security analysis.",
-            remarks: "Ensures workflows are established."
+            remarks: "Ensures workflows are established.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-20",
+            id: "sec_an-4-20",
             text: "Case management system",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A case management system that supports the analyst workflow.",
-            remarks: "Ensures a case management system is in place."
+            remarks: "Ensures a case management system is in place.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-21",
+            id: "sec_an-4-21",
             text: "Report templates",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Report templates for standardization of investigation reporting.",
-            remarks: "Ensures standardized reporting."
+            remarks: "Ensures standardized reporting.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-22",
+            id: "sec_an-4-22",
             text: "Evidence seizure procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Procedure for seizure of evidence in forensic analysis.",
-            remarks: "Ensures evidence seizure is standardized."
+            remarks: "Ensures evidence seizure is standardized.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-23",
+            id: "sec_an-4-23",
             text: "Evidence transport procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Procedure for trusted transport of evidence (e.g. laptops) that preserve the chain of custody.",
-            remarks: "Ensures evidence transport is secure."
+            remarks: "Ensures evidence transport is secure.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-4-24",
+            id: "sec_an-4-24",
             text: "Chain of custody preservation procedure",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Procedures to correctly process evidence, while preserving the chain of custody.",
-            remarks: "Ensures chain of custody is preserved."
+            remarks: "Ensures chain of custody is preserved.",
+            isSubquestion: true
           },
           {
-            id: "sec-an-completeness",
+            id: "sec_an-completeness",
             text: "Completeness",
             type: "completeness",
             guidance: "Assesses the completeness of the capabilities and artefacts.",
             remarks: "Ensures all aspects are covered."
           },
           {
-            id: "sec-an-comments",
+            id: "sec_an-comments",
             text: "Comments and/or Remarks",
             type: "text",
             guidance: "Space to provide any relevant context or any additional comments."
@@ -8308,17 +8362,12 @@ const assessmentData: AssessmentData = {
       "threat_intelligence": {
         name: "Threat Intelligence",
         questions: [
-          {
-            id: "threat-int-1",
-            text: "Service Description",
-            type: "header",
-            isHeader: true
-          },
+          
           {
             id: "threat-int-1-1",
             text: "Have you formally described the threat intelligence service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A service description should be in place.",
             remarks: "Ensures clarity in the service scope."
           },
@@ -8334,7 +8383,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Indicators to establish the performance of the service.",
-            remarks: "Ensures performance is tracked."
+            remarks: "Ensures performance is tracked.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-2",
@@ -8342,7 +8392,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Indicators to establish the quality of service delivery.",
-            remarks: "Ensures quality is maintained."
+            remarks: "Ensures quality is maintained.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-3",
@@ -8350,7 +8401,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
-            remarks: "Ensures dependencies are managed."
+            remarks: "Ensures dependencies are managed.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-4",
@@ -8358,7 +8410,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Agreements on minimum performance, capacity, availability, etc.",
-            remarks: "Ensures service levels are met."
+            remarks: "Ensures service levels are met.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-5",
@@ -8366,7 +8419,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The operational hours for this service (e.g. 24/7).",
-            remarks: "Defines service availability."
+            remarks: "Defines service availability.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-6",
@@ -8374,7 +8428,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The customers and stakeholders for this service (e.g. IT management).",
-            remarks: "Identifies who is affected by the service."
+            remarks: "Identifies who is affected by the service.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-7",
@@ -8382,7 +8437,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The purpose and objectives for this service.",
-            remarks: "Clarifies the goals of the service."
+            remarks: "Clarifies the goals of the service.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-8",
@@ -8390,7 +8446,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The service input: what triggers this service to run?",
-            remarks: "Identifies what initiates the service."
+            remarks: "Identifies what initiates the service.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-9",
@@ -8398,7 +8455,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The service output: what does the service deliver? Can be tangible (e.g. reports) or intangible (e.g. situational awareness).",
-            remarks: "Defines the outcomes of the service."
+            remarks: "Defines the outcomes of the service.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-10",
@@ -8406,7 +8464,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Which activities are carried out within the scope of the service?",
-            remarks: "Lists the activities involved in the service."
+            remarks: "Lists the activities involved in the service.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-11",
@@ -8414,7 +8473,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Which roles and responsibilities apply to this service?",
-            remarks: "Defines who is responsible for what in the service."
+            remarks: "Defines who is responsible for what in the service.",
+            isSubquestion: true
           },
           {
             id: "threat-int-2-completeness",
@@ -8423,17 +8483,12 @@ const assessmentData: AssessmentData = {
             guidance: "Use this outcome to determine the score for 4.2",
             remarks: "Assesses the completeness of the document elements."
           },
-          {
-            id: "threat-int-3",
-            text: "Service Quality and Delivery",
-            type: "header",
-            isHeader: true
-          },
+          
           {
             id: "threat-int-3-1",
             text: "Is the service measured for quality?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Are the quality indicators from the previous questions used for reporting on the service?",
             remarks: "Ensures quality is tracked and reported."
           },
@@ -8441,7 +8496,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-2",
             text: "Is the service measured for service delivery in accordance with service levels?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service levels should be used to formally commit the SOC to service delivery.",
             remarks: "Ensures service levels are met."
           },
@@ -8449,7 +8504,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-3",
             text: "Are customers and/or stakeholders regularly updated about the service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Changes to the service scope, delivery, etc.",
             remarks: "Keeps stakeholders informed."
           },
@@ -8457,7 +8512,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-4",
             text: "Is there a contractual agreement between the SOC and the customers?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Contractual agreements should also cover penalties.",
             remarks: "Formalizes the service agreement."
           },
@@ -8465,7 +8520,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-5",
             text: "Is sufficient personnel allocated to the process to ensure required service delivery?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Allocation of dedicated personnel will ensure highest service quality.",
             remarks: "Ensures adequate staffing for service delivery."
           },
@@ -8473,7 +8528,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-6",
             text: "Is the service aligned with other relevant processes?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "e.g. the security monitoring process, and mainly the security incident management process.",
             remarks: "Ensures consistency with other processes."
           },
@@ -8481,7 +8536,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-7",
             text: "Is there an incident resolution / service continuity process in place for this service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service continuity is important to comply with contractual agreements, even in case of major incidents.",
             remarks: "Ensures continuity of service."
           },
@@ -8489,7 +8544,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-8",
             text: "Has a set of procedures been created for this service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Procedures support process standardization and quality. Personnel should be trained to use procedures correctly and structurally.",
             remarks: "Ensures standardized procedures."
           },
@@ -8497,7 +8552,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-9",
             text: "Is there an onboarding and offloading procedure for this service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Customer onboarding and offloading procedures support efficient service delivery and ensure customers are (dis)connected properly.",
             remarks: "Ensures smooth transitions for customers."
           },
@@ -8505,7 +8560,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-10",
             text: "Are best practices applied to the service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Best practices should be used to optimize this service.",
             remarks: "Ensures the service follows best practices."
           },
@@ -8513,7 +8568,7 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-11",
             text: "Is process data gathered for prediction of service performance?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Service performance measurement requires establishment of performance goals.",
             remarks: "Enables performance prediction."
           },
@@ -8521,13 +8576,13 @@ const assessmentData: AssessmentData = {
             id: "threat-int-3-12",
             text: "Is the service continuously being improved based on improvement goals?",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Improvement based on evaluation, (maturity) assessment, tests, etc.",
             remarks: "Ensures continuous improvement."
           },
           {
             id: "threat-int-4",
-            text: "Capabilities and Artefacts",
+            text: "Please specify capabilities and artefacts of the threat intelligence process:",
             type: "header",
             isHeader: true
           },
@@ -8537,7 +8592,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "A process for continuously gathering relevant intelligence information.",
-            remarks: "Ensures continuous intelligence gathering."
+            remarks: "Ensures continuous intelligence gathering.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-2",
@@ -8545,7 +8601,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "An automated system that collects and processes security intelligence information.",
-            remarks: "Ensures automated intelligence gathering."
+            remarks: "Ensures automated intelligence gathering.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-3",
@@ -8553,7 +8610,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "A central 'hub' for distributing indicators of compromise to other systems for further processing.",
-            remarks: "Ensures centralized distribution."
+            remarks: "Ensures centralized distribution.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-4",
@@ -8561,7 +8619,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The use of public sources in the security intelligence process.",
-            remarks: "Ensures collection from public sources."
+            remarks: "Ensures collection from public sources.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-5",
@@ -8569,7 +8628,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The use of closed trusted communities in the security intelligence process.",
-            remarks: "Ensures collection from closed communities."
+            remarks: "Ensures collection from closed communities.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-6",
@@ -8577,7 +8637,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The use of intelligence providers as a source for the security intelligence process.",
-            remarks: "Ensures collection from intelligence providers."
+            remarks: "Ensures collection from intelligence providers.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-7",
@@ -8585,7 +8646,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The use of business partners as a source for the security intelligence process.",
-            remarks: "Ensures collection from business partners."
+            remarks: "Ensures collection from business partners.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-8",
@@ -8593,7 +8655,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The use of mailing lists as a source for the security intelligence process.",
-            remarks: "Ensures collection from mailing lists."
+            remarks: "Ensures collection from mailing lists.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-9",
@@ -8601,7 +8664,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The use of internal intelligence sources for the security intelligence process.",
-            remarks: "Ensures collection from internal sources."
+            remarks: "Ensures collection from internal sources.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-10",
@@ -8609,7 +8673,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The capability to analyze structured information.",
-            remarks: "Ensures structured data analysis."
+            remarks: "Ensures structured data analysis.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-11",
@@ -8617,7 +8682,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The capability to analyze unstructured information.",
-            remarks: "Ensures unstructured data analysis."
+            remarks: "Ensures unstructured data analysis.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-12",
@@ -8625,7 +8691,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The capability of using past incidents in the threat intelligence process. e.g. connecting new IoCs to past threats.",
-            remarks: "Ensures past incident analysis."
+            remarks: "Ensures past incident analysis.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-13",
@@ -8633,7 +8700,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Analyzing trends in the threat intelligence IoCs observed within the company.",
-            remarks: "Ensures trend analysis."
+            remarks: "Ensures trend analysis.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-14",
@@ -8641,7 +8709,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Automated alerting of sightings of observables.",
-            remarks: "Ensures automated alerting."
+            remarks: "Ensures automated alerting.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-15",
@@ -8649,7 +8718,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Tracking the movement of attackers to keep track of new tools, tactics, techniques, and procedures.",
-            remarks: "Ensures adversary movement tracking."
+            remarks: "Ensures adversary movement tracking.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-16",
@@ -8657,7 +8727,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Identification of adversaries based on correlating intelligence indicators and incidents.",
-            remarks: "Ensures attacker identification."
+            remarks: "Ensures attacker identification.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-17",
@@ -8665,7 +8736,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Identification of threats related to attacker groups.",
-            remarks: "Ensures threat identification."
+            remarks: "Ensures threat identification.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-18",
@@ -8673,7 +8745,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Prediction of threats based on the information gathered in the threat intelligence process.",
-            remarks: "Ensures threat prediction."
+            remarks: "Ensures threat prediction.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-19",
@@ -8681,7 +8754,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Extraction of Tactics, Techniques, and Procedures (TTP) from observables within the infrastructure.",
-            remarks: "Ensures TTP extraction."
+            remarks: "Ensures TTP extraction.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-20",
@@ -8689,7 +8763,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Deduplication of threat intelligence feeds to avoid duplicate events.",
-            remarks: "Ensures deduplication."
+            remarks: "Ensures deduplication.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-21",
@@ -8697,7 +8772,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Enrichment of information with additional sources for a higher level of confidentiality.",
-            remarks: "Ensures enrichment."
+            remarks: "Ensures enrichment.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-22",
@@ -8705,7 +8781,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Addition of context to the threat intelligence process. Context can be vulnerability context, asset criticality, etc.",
-            remarks: "Ensures contextualization."
+            remarks: "Ensures contextualization.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-23",
@@ -8713,7 +8790,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Prioritization of threat intelligence based on trustworthiness of source, sector relevance, geographic relevance, timeliness, etc.",
-            remarks: "Ensures prioritization."
+            remarks: "Ensures prioritization.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-24",
@@ -8721,7 +8799,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Reporting on threat intelligence findings and activities.",
-            remarks: "Ensures threat intelligence reporting."
+            remarks: "Ensures threat intelligence reporting.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-25",
@@ -8729,7 +8808,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Creation of a landscape of current and emerging threats for strategic purposes.",
-            remarks: "Ensures threat landscaping."
+            remarks: "Ensures threat landscaping.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-26",
@@ -8737,7 +8817,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Forecasting based on trends and incidents.",
-            remarks: "Ensures forecasting."
+            remarks: "Ensures forecasting.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-27",
@@ -8745,7 +8826,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Sharing of information with relevant parties within the company.",
-            remarks: "Ensures sharing within the company."
+            remarks: "Ensures sharing within the company.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-28",
@@ -8753,7 +8835,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Sharing of information with relevant parties within the same industry.",
-            remarks: "Ensures sharing with the industry."
+            remarks: "Ensures sharing with the industry.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-29",
@@ -8761,7 +8844,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Sharing of information with relevant parties outside the industry.",
-            remarks: "Ensures sharing outside the industry."
+            remarks: "Ensures sharing outside the industry.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-30",
@@ -8769,15 +8853,17 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Sharing of information in standardized exchange formats, such as STIX.",
-            remarks: "Ensures sharing in standardized format."
+            remarks: "Ensures sharing in standardized format.",
+            isSubquestion: true
           },
           {
             id: "threat-int-4-31",
             text: "Management of the CTI infrastructure (Threat Intelligence Platform)",
             type: "dropdown",
-            options: ["No", "Yes"],
+             options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Managing the TIP to optimally support TI efforts.",
-            remarks: "Ensures management of the CTI infrastructure."
+            remarks: "Ensures management of the CTI infrastructure.",
+            isSubquestion: true
           },
           {
             id: "threat-int-completeness",
@@ -8797,37 +8883,26 @@ const assessmentData: AssessmentData = {
       "threat_hunting": {
         name: "Threat Hunting",
         questions: [
-          {
-            id: "threat-hunt-1",
-            text: "Methodology",
-            type: "header",
-            isHeader: true
-          },
+         
           {
             id: "threat-hunt-1-1",
             text: "Do you use a standardized threat hunting methodology?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "Can be an internally developed approach or a publicly available methodology, such as TaHiTI.",
             remarks: "Ensures a structured approach to threat hunting."
-          },
-          {
-            id: "threat-hunt-2",
-            text: "Service Description",
-            type: "header",
-            isHeader: true
           },
           {
             id: "threat-hunt-2-1",
             text: "Have you formally described the threat hunting service?",
             type: "dropdown",
-            options: ["No", "Yes"],
+            options: ["No", "Partially", "Averagely", "Mostly", "Fully"],
             guidance: "A service description should be in place.",
             remarks: "Ensures clarity in the service scope."
           },
           {
             id: "threat-hunt-3",
-            text: "Threat Hunting Service Document Elements",
+            text: "Please specify elements of the threat hunting service document:",
             type: "header",
             isHeader: true
           },
@@ -8837,7 +8912,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Indicators to establish the performance of the service.",
-            remarks: "Ensures performance is tracked."
+            remarks: "Ensures performance is tracked.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-2",
@@ -8845,7 +8921,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Indicators to establish the quality of service delivery.",
-            remarks: "Ensures quality is maintained."
+            remarks: "Ensures quality is maintained.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-3",
@@ -8853,7 +8930,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "A clear understanding of which people/process/technologies are required for adequate service delivery.",
-            remarks: "Ensures dependencies are managed."
+            remarks: "Ensures dependencies are managed.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-4",
@@ -8861,7 +8939,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Agreements on minimum performance, capacity, availability, etc.",
-            remarks: "Ensures service levels are met."
+            remarks: "Ensures service levels are met.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-5",
@@ -8869,7 +8948,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The operational hours for this service (e.g. 24/7).",
-            remarks: "Defines service availability."
+            remarks: "Defines service availability.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-6",
@@ -8877,7 +8957,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The customers and stakeholders for this service (e.g. IT management).",
-            remarks: "Identifies who is affected by the service."
+            remarks: "Identifies who is affected by the service.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-7",
@@ -8885,7 +8966,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The purpose and objectives for this service.",
-            remarks: "Clarifies the goals of the service."
+            remarks: "Clarifies the goals of the service.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-8",
@@ -8893,7 +8975,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The service input: what triggers this service to run?",
-            remarks: "Identifies what initiates the service."
+            remarks: "Identifies what initiates the service.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-9",
@@ -8901,7 +8984,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "The service output: what does the service deliver? Can be tangible (e.g. reports) or intangible (e.g. situational awareness).",
-            remarks: "Defines the outcomes of the service."
+            remarks: "Defines the outcomes of the service.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-10",
@@ -8909,7 +8993,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Which activities are carried out within the scope of the service?",
-            remarks: "Lists the activities involved in the service."
+            remarks: "Lists the activities involved in the service.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-11",
@@ -8917,7 +9002,8 @@ const assessmentData: AssessmentData = {
             type: "dropdown",
             options: ["No", "Yes"],
             guidance: "Which roles and responsibilities apply to this service?",
-            remarks: "Defines who is responsible for what in the service."
+            remarks: "Defines who is responsible for what in the service.",
+            isSubquestion: true
           },
           {
             id: "threat-hunt-3-completeness",
